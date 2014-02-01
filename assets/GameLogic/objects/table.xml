@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Item>
-<STATE_EMPTY>
 <id>Wooden Table</id>
+<size>40,25,1</size>
+<state>
+<stateId>empty</stateId>
 <description>An old wooden table sits in the corner, looks pretty worn through</description>
 <img_EMPTYtable>Textures/objects/table.jpg</img_EMPTYtable>
-<size>40,25,1</size>
 <on_combine>
     <trigger_UseItemOn>
         <type>STATE_SET_AND_DISPOSE</type>
@@ -13,10 +14,10 @@
         <new_state>TV</new_state>
     </trigger_UseItemOn>   
 </on_combine>
-</STATE_EMPTY>
-<STATE_TV>
+</state>
+<state>
+<stateId>tv</stateId>
 <description>The TV is now on the table</description>
 <img_TVtable>Textures/objects/tvOnTable.jpg</img_TVtable>
-<size>40,25,1</size>
-</STATE_TV>
+</state>
 </Item>

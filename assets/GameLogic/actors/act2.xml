@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Actor>
-<STATE_DEFAULT>
+
 <id>act1</id>
     <action>
         <type>STAND</type>
@@ -26,5 +26,5 @@
 <size>8,22,1</size>
 <conversation>Conversations/act1_default.xml</conversation>
 <description>There's some wierd dude standing in the corner.</description>
-</STATE_DEFAULT>
+
 </Actor>
